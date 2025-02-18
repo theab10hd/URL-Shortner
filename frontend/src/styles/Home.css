@@ -1,0 +1,10 @@
+input:active,
+input:focus,
+input:hover {
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.input-group {
+  min-width: 30vw;
+}
