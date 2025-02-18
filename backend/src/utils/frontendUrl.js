@@ -1,1 +1,1 @@
-exports.frontendUrl = "http://localhost:5173";
+exports.frontendUrl = "https://mellifluous-banoffee-e5fee1.netlify.app";

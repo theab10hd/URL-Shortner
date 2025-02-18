@@ -1,1 +1,1 @@
-export const backendUrl = "http://localhost:5000";
+export const backendUrl = "https://url-shortner-h8x5.onrender.com";
