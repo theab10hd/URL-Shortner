@@ -7,10 +7,17 @@ const cookieParser = require("cookie-parser");
 
 const authRoutes = require("./src/routes/auth.routes");
 const urlRoutes = require("./src/routes/url.routes");
+const { backendUrl } = require("../frontend/src/apis/backendUrl");
 
 const app = express();
 
-app.use(cors());
+app.use(
+  cors({
+    origin: backendUrl,
+    credentials: true,
+    methods: "GET, POST, PUT, DELETE",
+  })
+);
 
 app.use(cookieParser());
 app.use(express.json());
