@@ -1,1 +1,1 @@
-exports.frontendUrl = "https://urlshortnerbyabhijith.netlify.app/";
+exports.frontendUrl = "https://urlshortnerbyabhijith.netlify.app";
